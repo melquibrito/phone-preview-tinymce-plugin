@@ -2,7 +2,7 @@
  * @copyright ©Melqui Brito. All rights reserved.
  * @author Melqui Brito
  * @version 1.0.0 (2020-03-20)
- * @description Draggable phone preview modal for tinymce WYSIWYG editor.
+ * @description Draggable live phone preview modal for tinymce WYSIWYG editor.
  */
 
 (function () {
@@ -299,7 +299,6 @@ iframe#tox-phone-screen:focus {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
-
   50% {
     opacity: 1;
   }
@@ -310,58 +309,49 @@ iframe#tox-phone-screen:focus {
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
-
   50% {
     opacity: 1;
   }
 }
-
 .zoomIn {
   animation-duration: 0.5s;
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
 }
-
 @-webkit-keyframes bounceOut {
   20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
   }
-
   50%,
   55% {
     opacity: 1;
     -webkit-transform: scale3d(1.1, 1.1, 1.1);
     transform: scale3d(1.1, 1.1, 1.1);
   }
-
   to {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
 }
-
 @keyframes bounceOut {
   20% {
     -webkit-transform: scale3d(0.9, 0.9, 0.9);
     transform: scale3d(0.9, 0.9, 0.9);
   }
-
   50%,
   55% {
     opacity: 1;
     -webkit-transform: scale3d(1.1, 1.1, 1.1);
     transform: scale3d(1.1, 1.1, 1.1);
   }
-
   to {
     opacity: 0;
     -webkit-transform: scale3d(0.3, 0.3, 0.3);
     transform: scale3d(0.3, 0.3, 0.3);
   }
 }
-
 .bounceOut {
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -400,22 +390,6 @@ iframe#tox-phone-screen:focus {
     let iframe = document.querySelector('iframe#tox-phone-screen'),
         iStyle = iframe.contentWindow.document.createElement('style');
     iStyle.innerHTML = `
-html {
-    width: calc(100vw - 20px);
-    width: -webkit-calc(100vw - 20px);
-    width: -moz-calc(100vw - 20px);
-    height: calc(100vh - 17px);
-    height: -webkit-calc(100vh - 17px);
-    height: -moz-calc(100vh - 17px);
-}
-body {
-    width: calc(100vw - 40px);
-    width: -webkit-calc(100vw - 40px);
-    width: -moz-calc(100vw - 40px);
-    height: calc(100vh - 34px);
-    height: -webkit-calc(100vh - 34px);
-    height: -moz-calc(100vh - 34px);
-}
 body {
     overflow: scroll;
     -ms-overflow-style: none;
