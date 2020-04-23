@@ -1,5 +1,5 @@
 # Phone Preview
-Draggable live phone preview modal for [tinymce WYSIWYG editor](https://www.tiny.cloud/).
+Draggable live phone preview modal for <a href="https://www.tiny.cloud/" target="_blank">tinymce WYSIWYG editor</a>.
 
 ![demo](phone-preview-demo.gif)
 
