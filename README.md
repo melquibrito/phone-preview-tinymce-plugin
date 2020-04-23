@@ -55,12 +55,12 @@ If you have already applied external CSS into tinymce editor by setting the [__c
         selector: "#target-element", // change this value according to your HTML target element selector
         toolbar: ["phonepreview"],
         plugins: ["phonepreview"],
-        content_css: "css/contentStyle.css" // resolved to http://domain.mine/css/tinymceContentStyle.css
+        content_css: "css/contentStyle.css" // resolved to http://domain.mine/css/contentStyle.css
         phone_preview: {
             css: ["css/style.css", "css/mobile.css", "css/animate.css"]
         }
         /*
-         The following link elements will be appended to PhonePreview iframe component in the following order:
+         The following link elements will be appended to PhonePreview iframe component and in the following order:
          
          <link href="css/style.css" type="text/css" rel="stylesheet">
          <link href="css/mobile.css" type="text/css" rel="stylesheet"> 
