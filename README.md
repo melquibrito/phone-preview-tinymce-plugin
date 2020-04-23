@@ -19,7 +19,7 @@ tinymce.init({
 });
 ```
 ### Extending external CSS into PhonePreview
-If you have already applied external CSS into tinymce editor by setting the [__content_css__](https://www.tiny.cloud/docs/configure/content-appearance/#content_css) property when initializing it, by default, PhonePreview will also apply the same CSS to its content. If for some reason you want to apply a different styling to PhonePreview, set the following property with the source path of the CSS file you want it to use.
+If you have already applied external CSS into tinymce editor by setting the [__content_css__](https://www.tiny.cloud/docs/configure/content-appearance/#content_css) property when initializing it, by default, the same CSS will be applied to PhonePreview. If for some reason you want to apply a different styling to PhonePreview, set the following property with the source path of the CSS file you want it to use.
 
 ```javascript
     tinymce.init({
