@@ -34,7 +34,7 @@ You can only open PhonePreview by clicking on its toggle button; however, you ca
 
 PhonePreview is draggable. Just click on its frame, hold it and drag it around. You will soon notice that you cannot drag it off the screen - that's due to the fact that dragging PhonePreview has been limited to viewport size. 
 
-Closing PhonePreview does not reset it to its initial position. As soon as you reopen it, it will be exactly where you left it.
+Closing PhonePreview does not reset it to its initial position. As soon as you reopen it, it will be exactly where you left it. Reloading the whole page, however, will do just that.
 
 Editing Tinymce content will automatically update PhonePreview content making it a LIVE phone preview component.
 
