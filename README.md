@@ -7,4 +7,4 @@ Draggable live phone preview modal for tinymce WYSIWYG editor.
 * [Melqui Brito](https://github.com/melquibrito)
 
 ## License
-This project is licensed under the __MIT License__ - see the [LICENSE](LICENSE) file for more details.
+This project is licensed under the __MIT License__ - see the [LICENSE](LICENSE.md) file for more details.
