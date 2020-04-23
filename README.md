@@ -26,7 +26,7 @@ If you have already applied external CSS into tinymce editor by setting the [__c
         selector: "#target-element", // change this value according to your HTML target element selector
         toolbar: ["phonepreview"],
         plugins: ["phonepreview"],
-        phone-preview-css: "assets/css/phone-preview.css"; // resolved to http://domain.mine/assets/css/phone-preview.css
+        phone_preview_css: "assets/css/phone-preview.css"; // resolved to http://domain.mine/assets/css/phone-preview.css
     });
 ```
 ## Functionality
