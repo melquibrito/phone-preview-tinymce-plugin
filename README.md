@@ -38,6 +38,9 @@ Closing PhonePreview does not reset it to its initial position. As soon as you r
 
 Editing Tinymce content will automatically update PhonePreview content making it a LIVE phone preview component.
 
+## Applying layout template into PhonePreview
+Coming soon...
+
 ## Author
 * [Melqui Brito](https://github.com/melquibrito)
 
