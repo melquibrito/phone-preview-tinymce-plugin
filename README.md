@@ -59,7 +59,7 @@ Extending multiple css files into PhonePreview:
         plugins: ["phonepreview"],
         content_css: "css/contentStyle.css" // resolved to http://domain.mine/css/contentStyle.css
         phone_preview: {
-            css: ["css/style.css", "css/mobile.css", "css/animate.css"]
+            css: ["css/style.css", "css/mobile.css", "css/animate.css"] // "css/style.css css/mobile.css css/animate.css" also works!
         }
         /*
          The following link elements will be appended to PhonePreview iframe component and in the following order:
