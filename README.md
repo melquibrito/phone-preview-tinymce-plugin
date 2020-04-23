@@ -37,7 +37,9 @@ To set any of the options above, you first need to add the flowing object to you
 ```
     
 ### Extending external CSS into PhonePreview
-If you have already applied external CSS into tinymce editor by setting the [__content_css__](https://www.tiny.cloud/docs/configure/content-appearance/#content_css) property when initializing it, by default, the same CSS will be applied to PhonePreview. If for some reason you are applying css into tinymce editor editing area and do not want PhonePreview to make use of it, inlcude property __use_content_css__ to phone_preview configuration object and set it to false.
+If you have already applied external CSS into tinymce editor by setting the [__content_css__](https://www.tiny.cloud/docs/configure/content-appearance/#content_css) property when initializing it, by default, the same CSS will be applied to PhonePreview. 
+
+If for some reason you are applying css into tinymce editor editing area and do not want PhonePreview to make use of it, inlcude property __use_content_css__ to phone_preview configuration object and set it to false.
 ```javascript
     tinymce.init({
         selector: "#target-element", // change this value according to your HTML target element selector
@@ -49,7 +51,7 @@ If you have already applied external CSS into tinymce editor by setting the [__c
         }
     });
 ```
-#### Extending multiple css files into PhonePreview
+Extending multiple css files into PhonePreview:
 ```javascript
     tinymce.init({
         selector: "#target-element", // change this value according to your HTML target element selector
@@ -69,6 +71,8 @@ If you have already applied external CSS into tinymce editor by setting the [__c
         */
     });
 ```
+### Applying layout template into PhonePreview
+Coming soon...
 
 ## Functionality
 You can only open PhonePreview by clicking on its toggle button; however, you can close it by either clicking on its toggle button again or simply hitting the Escape key button (ESC).
@@ -78,9 +82,6 @@ PhonePreview is draggable. Just click on its frame, hold it and drag it around. 
 Closing PhonePreview does not reset it to its initial position. As soon as you reopen it, it will be exactly where you left it. Reloading the whole page, however, will do just that.
 
 Editing Tinymce content will automatically update PhonePreview content making it a LIVE phone preview component.
-
-## Applying layout template into PhonePreview
-Coming soon...
 
 ## Author
 * [Melqui Brito](https://github.com/melquibrito)
