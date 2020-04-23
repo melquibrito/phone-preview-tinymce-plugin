@@ -30,7 +30,7 @@ If you have already applied external CSS into tinymce editor by setting the [__c
     });
 ```
 ## Functionality
-You can only open PhonePreview by clicking on its toggle button; however, you can close it by either clicking on its toggle button again or simply by hitting the ESC _(escape)_ key.
+You can only open PhonePreview by clicking on its toggle button; however, you can close it by either clicking on its toggle button again or simply hitting the Escape key button (ESC).
 
 PhonePreview is draggable. Just click on its frame, hold it and drag it around. You will soon notice that you cannot drag it off the screen - that's due to the fact that dragging PhonePreview has been limited to viewport size. 
 
