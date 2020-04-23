@@ -417,7 +417,7 @@ body {
             e.ui.registry.addIcon('phone-preview', icon);
             e.ui.registry.addToggleButton('phonepreview', {
                 icon: 'phone-preview',
-                tooltip: 'Simular visualização no celular',
+                tooltip: 'Phone preview',
                 onAction: function (api) {
                     toggleButtonAPI = api;
                     if (document.getElementById('tox-phone-preview').classList.contains('tox-hidden')) {
