@@ -29,6 +29,8 @@ If you have already applied external CSS into tinymce editor by setting the [__c
         phone-preview-css: "assets/css/phone-preview.css"; // resolved to http://domain.mine/assets/css/phone-preview.css
     });
 ```
+## Functionality
+You can only open PhonePreview by clicking on its toggle button; however, you can close it by either clicking on its toggle button again or simply by hitting the ESC _(escape)_ key.
 
 ## Author
 * [Melqui Brito](https://github.com/melquibrito)
